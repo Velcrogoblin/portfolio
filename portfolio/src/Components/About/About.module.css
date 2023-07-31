@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 30;
+    padding-top: 30px;
+    color:  rgb(66, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container h1 {
+    font-weight: 500;
+    color:  rgb(66, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container p {
+    width: 850px;
+    text-align: center;
+}

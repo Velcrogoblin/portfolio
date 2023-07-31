@@ -1,0 +1,15 @@
+.container {
+    max-width: 100vw;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+    gap: 30px;
+    background-color: magenta;
+    color: white;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+
+}

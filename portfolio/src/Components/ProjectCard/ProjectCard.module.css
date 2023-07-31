@@ -1,0 +1,47 @@
+.outer {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer h1 {
+    font-weight: 500;
+    color:  rgb(66, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+.projects {
+    width: 230px;
+    height: 230px;
+    margin: 20px;
+    padding-top: 10px;
+    display: flex;
+    border: dashed 1px;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(66, 66, 66);
+}
+
+.projects h3 {
+    font-weight: 500;
+    color:  rgb(66, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 40px;
+}
+
+.projects p {
+    line-height: 0.3;
+    font-weight: 500;
+    color:  rgb(66, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+}
