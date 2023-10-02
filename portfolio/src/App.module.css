@@ -7,3 +7,5 @@
   align-content:center;
   border: none;
 }
+
+html{scroll-behavior:smooth}
