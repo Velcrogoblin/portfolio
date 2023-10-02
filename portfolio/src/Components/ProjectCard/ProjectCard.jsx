@@ -51,7 +51,7 @@ const handleHoverOut = (e) => {
             {projects?.map((p) => {
                 return(
                     <div key = {p.title} className = {styles.projects}>
-                <a href = {p.url}><div className={styles.projectsimage} key = {p.title} id= {p.title} onMouseEnter = {handleHoverIn} onMouseLeave={handleHoverOut}>   
+                <a href = {p.url} target = "_blank"><div className={styles.projectsimage} key = {p.title} id= {p.title} onMouseEnter = {handleHoverIn} onMouseLeave={handleHoverOut}>   
                 {p.hover ?
                     <img src={p.img}></img>
                     : <p>{p.description}</p>
