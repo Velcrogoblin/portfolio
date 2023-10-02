@@ -9,10 +9,16 @@ function App() {
   return (
     <div className={styles.container}>
       <NavBar/>
+      <div id = "about">
       <About/>
+      </div>
       <SkillCard/>
+      <div id = "projects">
       <ProjectCard/>
+      </div>
+      <div id = "contact">
       <Footer/>
+      </div>
     </div>
   )
 }

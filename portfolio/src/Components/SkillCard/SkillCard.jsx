@@ -6,12 +6,12 @@ export const SkillCard = () => {
         {
             img: "",
             title: "DESIGN",
-            skills: ["Adobe Photoshop", "Adobe Illustrator"]
+            skills: ["Adobe Photoshop", "Adobe Illustrator", "Adobe After Effecs"]
         },
         {
             img: "",
             title: "FRONT-END",
-            skills: ["HTML", "CSS", "React", "Redux"]
+            skills: ["HTML", "CSS", "React", "Redux", "TypeScript"]
         },
         {
             img: "",
@@ -26,11 +26,11 @@ export const SkillCard = () => {
         <div className={styles.container}>
             {skills?.map((s) => {
                 return(
-                <div className={styles.skills}>
+                <div key = {s.title} className={styles.skills}>
                 <h3>{s?.title}</h3>
                 {s.skills?.map((skill) => {
                     return (
-                    <p>{skill}</p>
+                    <p key = {skill}>{skill}</p>
                     )
                 })}
                 </div>
