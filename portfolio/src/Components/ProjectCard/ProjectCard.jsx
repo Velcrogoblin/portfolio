@@ -11,7 +11,7 @@ export const ProjectCard = () => {
       description:
         "Business app. Created to keep track of clients, orders, expenses, products, etc. Made with react and Sequelize.",
       hover: true,
-      url: "https://dellucero.vercel.app/",
+      url: "https://dellucerodemo.vercel.app/",
     },
     {
       title: "SIMON",
