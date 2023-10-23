@@ -7,15 +7,10 @@ export const About = () => {
       <h1>About Me</h1>
       <div>
         <p>
-          I am a high-class, elite, full-stack developer. I've been trained by
-          the toughest, ugliest teachers in the northern lands. From Angkhmar to
-          Blottmusk I am well known for being a tenacious, jolly fellow, with
-          magical skills in coding.
+          I've loved coding since I was a kid. I used to get into DOS files to modify parameters to make my games work on the old PC I had. I have a good logical way of thinking when it comes to solving problems, and at the same time always looking for ways to improve my skills. 
         </p>
         <p>
-          My areas of expertise are so many that it is impossible for me to name
-          them all, but I can remark "variable naming" and "2-lines of code
-          solutions" to mi extense repertoire.
+          Apart from coding I love art and design and have worked as an illustrator and designer for 15 years.
         </p>
       </div>
     </div>
